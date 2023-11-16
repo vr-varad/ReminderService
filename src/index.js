@@ -19,7 +19,7 @@ const setupAndStartService = ()=>{
   //   'This is a testing email',
   //   'Hey, how are you, hope you like the support'
   // )
-  cron.schedule('*/2 * * * *', () => {
+  cron.schedule('*/6 * * * *', () => {
   console.log('running a task every two minutes');
 });
 }
